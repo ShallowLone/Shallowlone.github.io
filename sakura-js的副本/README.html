@@ -1,0 +1,108 @@
+<h1 id="sakurajs"><a class="markdownIt-Anchor" href="#sakurajs">#</a> Sakura.js</h1>
+<p>Sakura.js is an improved vanilla JS version of the <a href="https://github.com/almightynay/jQuery-Sakura">jQuery-Sakura</a> plugin. It makes it rain petals on a (section) of your page. <em>Credits to the original creator of the jQuery plugin.</em> I made this plugin because I wanted a tweaked vanilla JS version with NPM support.</p>
+<p>Sakura.js (like its original jQuery plugin) uses CSS3 animations and  <code>requestAnimationFrame</code>  to add elements which look like blossom petals to the DOM. You can add it on any element like the body, a div etc. They will animate on your page influenced by wind and gravity. Of course this doesn’t have to be limited to blossom petals. It can be regular leafs as well or something completely different.</p>
+<p><img src="https://i.imgur.com/Qvmj4sM.gif" alt=""></p>
+<h2 id="demo"><a class="markdownIt-Anchor" href="#demo">#</a> Demo</h2>
+<p>You can check a demo here: <a href="https://jhammann.github.io/sakura/">jhammann.github.io/sakura/</a></p>
+<h2 id="install"><a class="markdownIt-Anchor" href="#install">#</a> Install</h2>
+<p>You can install Sakura.js with NPM:</p>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>$ <span class="token function">npm</span> <span class="token function">install</span> sakura-js</pre></td></tr></table></figure><p>Or with Yarn if you prefer:</p>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>$ <span class="token function">yarn</span> <span class="token function">add</span> sakura-js</pre></td></tr></table></figure><h2 id="setup"><a class="markdownIt-Anchor" href="#setup">#</a> Setup</h2>
+<p>Include the Sakura.js files inside your page and initialize it within your javascript.<br>
+Below code shows the petals in your body (see the <a href="https://jhammann.github.io/sakura/">demo</a> for the results).</p>
+<figure class="highlight html"><figcaption data-lang="HTML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="4"></td><td><pre>    ...</pre></td></tr><tr><td data-num="5"></td><td><pre>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>path/to/sakura.min.css<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="8"></td><td><pre>    ...</pre></td></tr><tr><td data-num="9"></td><td><pre>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>path/to/sakura.min.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="10"></td><td><pre>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript"></pre></td></tr><tr><td data-num="11"></td><td><pre>      <span class="token keyword">var</span> sakura <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Sakura</span><span class="token punctuation">(</span><span class="token string">'body'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="12"></td><td><pre>    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="13"></td><td><pre><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="14"></td><td><pre><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></pre></td></tr></table></figure><h2 id="options"><a class="markdownIt-Anchor" href="#options">#</a> Options</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Type</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>className</code></td>
+<td>Classname of the petals. This corresponds with the Sakura CSS.</td>
+<td>String</td>
+<td>‘sakura’</td>
+</tr>
+<tr>
+<td><code>fallSpeed</code></td>
+<td>Speed factor in which the petal falls (the higher the number the slower it falls).</td>
+<td>Integer</td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>maxSize</code></td>
+<td>The maximum size of the petals.</td>
+<td>Integer</td>
+<td>14</td>
+</tr>
+<tr>
+<td><code>minSize</code></td>
+<td>The minimum size of the petals.</td>
+<td>Integer</td>
+<td>10</td>
+</tr>
+<tr>
+<td><code>delay</code></td>
+<td>The delay between petals (in ms). If you increase it, it will take longer for a new petal to drop and vice versa.</td>
+<td>Integer</td>
+<td>300</td>
+</tr>
+<tr>
+<td><code>colors.gradientColorStart</code></td>
+<td>The petals are made with a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient">linear-gradient</a>. This is the start color (in rgba).</td>
+<td>String</td>
+<td>‘rgba(255, 183, 197, 0.9)’</td>
+</tr>
+<tr>
+<td><code>colors.gradientColorEnd</code></td>
+<td>The linear-gradient end color (in rgba).</td>
+<td>String</td>
+<td>‘rgba(255, 197, 208, 0.9)’</td>
+</tr>
+<tr>
+<td><code>colors.gradientColorDegree</code></td>
+<td>The degree in which the linear-gradient tilts.</td>
+<td>Integer</td>
+<td>120</td>
+</tr>
+</tbody>
+</table>
+<h5 id="adding-multiple-colors"><a class="markdownIt-Anchor" href="#adding-multiple-colors">#</a> Adding multiple colors</h5>
+<p>You can add multiple colors like the example below. Colors are randomly picked.</p>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">var</span> sakura <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Sakura</span><span class="token punctuation">(</span><span class="token string">'body'</span><span class="token punctuation">,</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>    <span class="token literal-property property">colors</span><span class="token operator">:</span> <span class="token punctuation">[</span></pre></td></tr><tr><td data-num="3"></td><td><pre>        <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="4"></td><td><pre>            <span class="token literal-property property">gradientColorStart</span><span class="token operator">:</span> <span class="token string">'rgba(255, 183, 197, 0.9)'</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="5"></td><td><pre>            <span class="token literal-property property">gradientColorEnd</span><span class="token operator">:</span> <span class="token string">'rgba(255, 197, 208, 0.9)'</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="6"></td><td><pre>            <span class="token literal-property property">gradientColorDegree</span><span class="token operator">:</span> <span class="token number">120</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="7"></td><td><pre>        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="8"></td><td><pre>        <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="9"></td><td><pre>            <span class="token literal-property property">gradientColorStart</span><span class="token operator">:</span> <span class="token string">'rgba(255,189,189)'</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="10"></td><td><pre>            <span class="token literal-property property">gradientColorEnd</span><span class="token operator">:</span> <span class="token string">'rgba(227,170,181)'</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="11"></td><td><pre>            <span class="token literal-property property">gradientColorDegree</span><span class="token operator">:</span> <span class="token number">120</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="12"></td><td><pre>        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="13"></td><td><pre>        <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="14"></td><td><pre>            <span class="token literal-property property">gradientColorStart</span><span class="token operator">:</span> <span class="token string">'rgba(212,152,163)'</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="15"></td><td><pre>            <span class="token literal-property property">gradientColorEnd</span><span class="token operator">:</span> <span class="token string">'rgba(242,185,196)'</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="16"></td><td><pre>            <span class="token literal-property property">gradientColorDegree</span><span class="token operator">:</span> <span class="token number">120</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="17"></td><td><pre>        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="18"></td><td><pre>    <span class="token punctuation">]</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="19"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr></table></figure><h2 id="methods"><a class="markdownIt-Anchor" href="#methods">#</a> Methods</h2>
+<p>After you initialize Sakura you have its initialized instance in a variable (like the  <code>sakura</code>  variable in the example above) with helpful methods.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>sakura.stop(graceful);</code></td>
+<td>Stops the petals from dropping and removes them from the DOM. Set  <code>graceful</code>  (<em>boolean</em>) to  <code>true</code>  to let the petals finish their animation instead of removing them from the DOM abruptly.</td>
+</tr>
+<tr>
+<td><code>sakura.start();</code></td>
+<td>Start Sakura after stopping it.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="development"><a class="markdownIt-Anchor" href="#development">#</a> Development</h2>
+<p>Sakura.js uses  <code>gulp</code>  to build development and production versions (both located in  <code>/dist/</code> ).<br>
+The plugin is originally made in ES6 Javascript and SCSS. With gulp we use babel to create browser compatible versions.</p>
+<p>First you need to install <a href="https://gulpjs.com/">gulp-cli</a> globally.</p>
+<p>Then you have to install the project’s dependencies. In the root of the repo do:</p>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>$ <span class="token function">npm</span> <span class="token function">install</span></pre></td></tr></table></figure><p>or if you use Yarn:</p>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>$ <span class="token function">yarn</span> <span class="token function">install</span></pre></td></tr></table></figure><h5 id="tasks"><a class="markdownIt-Anchor" href="#tasks">#</a> Tasks</h5>
+<p>You can run the watch task if you’re actively developing. This watches for file changes and builds the correct files. This command also runs eslint.</p>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>$ gulp <span class="token function">watch</span></pre></td></tr></table></figure><p>If you want to run eslint individually. You can run the lint task:</p>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>$ gulp lint</pre></td></tr></table></figure><p>Finally to build the project without watching or linting run the default gulp task:</p>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>$ gulp</pre></td></tr></table></figure><h2 id="compatibility"><a class="markdownIt-Anchor" href="#compatibility">#</a> Compatibility</h2>
+<p>I tested this with the latest versions of Chrome, Firefox, Safari and IE11 on desktop and with Chrome for Android, Samsung Internet and iOS Safari.</p>
+<p>If you see compatibliy issues (or any issue for that matter) please add them in this repo’s issue tracker.</p>

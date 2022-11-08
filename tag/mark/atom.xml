@@ -5,8 +5,8 @@
     <link href="http://yoursite.com" />
     <updated>2022-10-31T04:10:00.000Z</updated>
     <category term="blog" />
-    <category term="mark" />
     <category term="cs" />
+    <category term="mark" />
     <entry>
         <id>http://yoursite.com/2022/10/31/markdown/</id>
         <title>Markdown Style test(English text)</title>

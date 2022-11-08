@@ -5,8 +5,8 @@
     <link href="http://yoursite.com" />
     <updated>2022-11-05T06:45:00.000Z</updated>
     <category term="blog" />
-    <category term="mark" />
     <category term="cs" />
+    <category term="mark" />
     <entry>
         <id>http://yoursite.com/2022/11/05/random/</id>
         <title>Random Number,Simulation and Random Walk</title>

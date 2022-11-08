@@ -5,8 +5,8 @@
     <link href="http://yoursite.com" />
     <updated>2022-11-01T04:45:05.000Z</updated>
     <category term="blog" />
-    <category term="mark" />
     <category term="cs" />
+    <category term="mark" />
     <entry>
         <id>http://yoursite.com/2022/11/01/Wordpress/</id>
         <title>WordPress开Blog介绍</title>

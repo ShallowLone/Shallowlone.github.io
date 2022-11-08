@@ -11,7 +11,7 @@
         <id>http://yoursite.com/2022/11/08/Hexo-Blog/</id>
         <title>Hexo-shoka1</title>
         <link rel="alternate" href="http://yoursite.com/2022/11/08/Hexo-Blog/"/>
-        <content type="html">&lt;center&gt;Hexo-Blog 第一期-初始化(纯新人教学向)
+        <content type="html">&lt;center&gt;Hexo-Blog 第一期-初始化(纯新人教学向)&lt;/center&gt;
 &lt;p&gt;如今越来越多的人想搭建属于自己的 Blog 了 (虽然这年头都是直接发微博，小红书，QQ 空间的 = =, 但是个人自己抡个个人页面比较有意思，以后也可以当简历一部份的 (对于计算机专业来讲)), 这里给各位推荐使用 Hexo 来搭建个人的 Blog (中途可能要掏一笔域名钱，其他几乎免费), 前面也有一篇 Wordpress 的文章，看个人所需.(本文尽可能图文并茂)&lt;/p&gt;
 &lt;p&gt;另外，你也可以部署到服务器 (国内先完成备案，部署到香港服务器就不用), 后面可能出一期教程&lt;/p&gt;
 &lt;p&gt;本文服务对象：Windows 用户和 Macos 用户&lt;/p&gt;
@@ -68,7 +68,7 @@
 &lt;p&gt;停止访问的时候按 Ctrl+C Contral, 不是 Command&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://shallowlone-1314146925.cos.ap-guangzhou.myqcloud.com/pic20221108162705.png&#34; alt&gt;&lt;/p&gt;
 &lt;p&gt;下一期内容：使用 Shoka 主题 / 部署 Github 上&lt;/p&gt;
-&lt;/center&gt;</content>
+</content>
         <category term="blog" />
         <updated>2022-11-08T07:40:48.000Z</updated>
     </entry>

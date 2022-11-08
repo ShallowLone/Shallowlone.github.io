@@ -3,10 +3,75 @@
     <id>http://yoursite.com</id>
     <title>落花繁星 星奔川騖</title>
     <link href="http://yoursite.com" />
-    <updated>2022-11-05T06:45:00.000Z</updated>
-    <category term="mark" />
+    <updated>2022-11-08T07:40:48.000Z</updated>
     <category term="blog" />
+    <category term="mark" />
     <category term="cs" />
+    <entry>
+        <id>http://yoursite.com/2022/11/08/Hexo-Blog/</id>
+        <title>Hexo-shoka1</title>
+        <link rel="alternate" href="http://yoursite.com/2022/11/08/Hexo-Blog/"/>
+        <content type="html">&lt;center&gt;Hexo-Blog 第一期-初始化(纯新人教学向)
+&lt;p&gt;如今越来越多的人想搭建属于自己的 Blog 了 (虽然这年头都是直接发微博，小红书，QQ 空间的 = =, 但是个人自己抡个个人页面比较有意思，以后也可以当简历一部份的 (对于计算机专业来讲)), 这里给各位推荐使用 Hexo 来搭建个人的 Blog (中途可能要掏一笔域名钱，其他几乎免费), 前面也有一篇 Wordpress 的文章，看个人所需.(本文尽可能图文并茂)&lt;/p&gt;
+&lt;p&gt;另外，你也可以部署到服务器 (国内先完成备案，部署到香港服务器就不用), 后面可能出一期教程&lt;/p&gt;
+&lt;p&gt;本文服务对象：Windows 用户和 Macos 用户&lt;/p&gt;
+&lt;p&gt;如有问题，请私信 Email~, 首页有邮箱&lt;/p&gt;
+&lt;h2 id=&#34;前提必备环境&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前提必备环境&#34;&gt;#&lt;/a&gt; 前提必备环境:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;电脑起码要有个能编辑代码的工具吧：Visual Studio Code/Sublime Text (个人推荐 VSC, 插件嘎嘎猛), 这里顺带多推荐个 Markdown 付费软件:&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90eXBvcmFpby5jbi8=&#34;&gt;Typora(typoraio.cn)&lt;/span&gt;, 后续自己写 markdown 文件看的很直观&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;能打开 Windows 的 CMD 和 Mac 的 Terminal&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安装 Git,Node.js (Mac 这里要首先先用 Terminal 下载 Homebrew 以及 Command line),Hexo:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Homebrew: 请打开 mac 的终端 Terminal 下载，复制下面代码就行:&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;/bin/bash -c &lt;span class=&#34;string&#34;&gt;&amp;quot;&lt;span class=&#34;subst&#34;&gt;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&lt;/span&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Mac 用户顺带下载个 Command Tools:&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;xcode-select --install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Windows 也可以用 chocolatey:&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jaG9jb2xhdGV5Lm9yZy9pbnN0YWxs&#34;&gt;Chocolatey&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Git:&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXQtc2NtLmNvbS8=&#34;&gt;Git (git-scm.com)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Mac 的 Git 请用 Homebrew 下载:&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;brew install git&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Windows 直接下载安装包就行&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Node.js:&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ub2RlanMub3JnL2VuLw==&#34;&gt;Node.js (nodejs.org)&lt;/span&gt; 直接装 Stable 版本就行 Node.js 内置 npm&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;都装完了，打几条指令先检查下版本啥的～Mac 用户用 Terminal Windows 用 CMD&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;node -v&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git -version&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;npm -v&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cnpm -v &lt;span class=&#34;comment&#34;&gt;##装了cnpm的可以查&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;如果等下 Npm 下载慢的话，下载个淘宝的 cnpm (LMAO)&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;npm install -g cnpm --registry=https://registry.npm.taobao.org&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Hexo 安装:&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;npm install -g hexo-cli&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cnpm install -g hexo-cli&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;hexo -v &lt;span class=&#34;comment&#34;&gt;#看版本&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;hr&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;初始化initialize&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#初始化initialize&#34;&gt;#&lt;/a&gt; 初始化 (Initialize)&lt;/h2&gt;
+&lt;p&gt;在 Cmd/Tml 中运行操作&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;hexo init myblog &lt;span class=&#34;comment&#34;&gt;#Myblog可以换个名字 不过建议名字短点较好&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;cd&lt;/span&gt; myblog &lt;span class=&#34;comment&#34;&gt;#进入文件夹&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;npm install 给文件夹也装个npm&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://shallowlone-1314146925.cos.ap-guangzhou.myqcloud.com/picpic20221108162038.png&#34; alt&gt;&lt;/p&gt;
+&lt;p&gt;上面就有这些玩意就差不多初始化完成咯&lt;/p&gt;
+&lt;p&gt;可以先启动下试试看捏:&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;hexo g &amp;amp;&amp;amp; hexo s&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;启动后可以访问你的 http://localhost:4000/, 正常显示后你的 Hexo 就搭建初步完成一部份了，好耶～&lt;/p&gt;
+&lt;p&gt;停止访问的时候按 Ctrl+C Contral, 不是 Command&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://shallowlone-1314146925.cos.ap-guangzhou.myqcloud.com/pic20221108162705.png&#34; alt&gt;&lt;/p&gt;
+&lt;p&gt;下一期内容：使用 Shoka 主题 / 部署 Github 上&lt;/p&gt;
+&lt;/center&gt;</content>
+        <category term="blog" />
+        <updated>2022-11-08T07:40:48.000Z</updated>
+    </entry>
     <entry>
         <id>http://yoursite.com/2022/11/05/random/</id>
         <title>Random Number,Simulation and Random Walk</title>

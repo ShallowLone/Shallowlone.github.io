@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>落花繁星 星奔川騖 • Posts by &#34;mark&#34; tag</title>
-        <link>http://yoursite.com</link>
+        <link>http://www.shallowlone.com</link>
         <description>Time like these</description>
         <language>zh-CN</language>
         <pubDate>Mon, 31 Oct 2022 12:10:00 +0800</pubDate>
@@ -11,9 +11,9 @@
         <category>mark</category>
         <category>cs</category>
         <item>
-            <guid isPermalink="true">http://yoursite.com/2022/10/31/markdown/</guid>
+            <guid isPermalink="true">http://www.shallowlone.com/2022/10/31/markdown/</guid>
             <title>Markdown Style test(English text)</title>
-            <link>http://yoursite.com/2022/10/31/markdown/</link>
+            <link>http://www.shallowlone.com/2022/10/31/markdown/</link>
             <category>mark</category>
             <pubDate>Mon, 31 Oct 2022 12:10:00 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;This post is originated from &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXN0LmdpdGh1Yi5jb20vYXBhY2tlZXIvNDE1OTI2OA==&#34;&gt;here&lt;/span&gt; and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.&lt;/p&gt;
@@ -238,9 +238,9 @@ This line is only separated by a single newline, so it’s a separate line in th
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://yoursite.com/2022/10/31/markdown%20Chinese%20file/</guid>
+            <guid isPermalink="true">http://www.shallowlone.com/2022/10/31/markdown%20Chinese%20file/</guid>
             <title>markdown中文语法介绍</title>
-            <link>http://yoursite.com/2022/10/31/markdown%20Chinese%20file/</link>
+            <link>http://www.shallowlone.com/2022/10/31/markdown%20Chinese%20file/</link>
             <category>mark</category>
             <pubDate>Mon, 31 Oct 2022 01:30:38 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;ps1以下内容从b站up主sakiyary搬运过来的附带个视频链接markdown-typoravscode-超全教程-给大一新生安利的文本神器-httpswwwbilibilicomvideobv1hg411p7fxvd_source68e6b59a31ec0e8cdf66bdbe71f5208e&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ps1以下内容从b站up主sakiyary搬运过来的附带个视频链接markdown-typoravscode-超全教程-给大一新生安利的文本神器-httpswwwbilibilicomvideobv1hg411p7fxvd_source68e6b59a31ec0e8cdf66bdbe71f5208e&#34;&gt;#&lt;/a&gt; Ps1: 以下内容从 b 站 up 主:&lt;strong&gt;Sakiyary&lt;/strong&gt; 搬运过来的，附带个视频链接:【[Markdown + Typora/VSCode 超全教程] 给大一新生安利的文本神器！】&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMWhHNDExcDdmWD92ZF9zb3VyY2U9NjhlNmI1OWEzMWVjMGU4Y2RmNjZiZGJlNzFmNTIwOGU=&#34;&gt;https://www.bilibili.com/video/BV1hG411p7fX?vd_source=68e6b59a31ec0e8cdf66bdbe71f5208e&lt;/span&gt;&lt;/h3&gt;

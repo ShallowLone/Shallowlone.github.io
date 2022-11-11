@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://yoursite.com</id>
+    <id>http://www.shallowlone.com</id>
     <title>落花繁星 星奔川騖 • Posts by &#34;blog&#34; category</title>
-    <link href="http://yoursite.com" />
+    <link href="http://www.shallowlone.com" />
     <updated>2022-11-08T07:40:48.000Z</updated>
     <category term="blog" />
     <category term="mark" />
     <category term="cs" />
     <entry>
-        <id>http://yoursite.com/2022/11/08/Hexo-Blog-1/</id>
+        <id>http://www.shallowlone.com/2022/11/08/Hexo-Blog-1/</id>
         <title>Hexo-Blog 第一期</title>
-        <link rel="alternate" href="http://yoursite.com/2022/11/08/Hexo-Blog-1/"/>
+        <link rel="alternate" href="http://www.shallowlone.com/2022/11/08/Hexo-Blog-1/"/>
         <content type="html">&lt;center&gt;Hexo-Blog 第一期-初始化(纯新人教学向)&lt;/center&gt;
 &lt;p&gt;如今越来越多的人想搭建属于自己的 Blog 了 (虽然这年头都是直接发微博，小红书，QQ 空间的 = =, 但是个人自己抡个个人页面比较有意思，以后也可以当简历一部份的 (对于计算机专业来讲)), 这里给各位推荐使用 Hexo 来搭建个人的 Blog (中途可能要掏一笔域名钱，其他几乎免费), 前面也有一篇 Wordpress 的文章，看个人所需.(本文尽可能图文并茂)&lt;/p&gt;
 &lt;p&gt;另外，你也可以部署到服务器 (国内先完成备案，部署到香港服务器就不用), 后面可能出一期教程&lt;/p&gt;
@@ -73,9 +73,9 @@
         <updated>2022-11-08T07:40:48.000Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2022/11/01/Wordpress/</id>
+        <id>http://www.shallowlone.com/2022/11/01/Wordpress/</id>
         <title>WordPress开Blog介绍</title>
-        <link rel="alternate" href="http://yoursite.com/2022/11/01/Wordpress/"/>
+        <link rel="alternate" href="http://www.shallowlone.com/2022/11/01/Wordpress/"/>
         <content type="html">&lt;p&gt;目前已选择使用 Hexo 搭建静态 Blog, 还就那个简洁 LMAO. 但是本文仍然适用于小白亲自写动态网页，后面也会陆续提供 Hexo 的新人建设 blog 方式.&lt;/p&gt;
 &lt;p&gt;&lt;s&gt;原话：在观看了 b 站某些 up 推荐的网站开发教程，刚好自己想通过网页 Blog 的形式完成记录相关记录，便利用星辰云的虚拟面板整了个动态网页型 Blog，以后为了方便会将网页部署回腾讯云的 server（到时候爷们直接 SQL 整体迁移）并完成备案工作&lt;/s&gt;&lt;/p&gt;
 &lt;p&gt;制作网页教程其实说实在，只要资金充足，没啥干不了的，可能就是时间成本问题 LMAO&lt;/p&gt;

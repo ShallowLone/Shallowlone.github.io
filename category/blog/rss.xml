@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>落花繁星 星奔川騖 • Posts by &#34;blog&#34; category</title>
-        <link>http://yoursite.com</link>
+        <link>http://www.shallowlone.com</link>
         <description>Time like these</description>
         <language>zh-CN</language>
         <pubDate>Tue, 08 Nov 2022 15:40:48 +0800</pubDate>
@@ -11,9 +11,9 @@
         <category>mark</category>
         <category>cs</category>
         <item>
-            <guid isPermalink="true">http://yoursite.com/2022/11/08/Hexo-Blog-1/</guid>
+            <guid isPermalink="true">http://www.shallowlone.com/2022/11/08/Hexo-Blog-1/</guid>
             <title>Hexo-Blog 第一期</title>
-            <link>http://yoursite.com/2022/11/08/Hexo-Blog-1/</link>
+            <link>http://www.shallowlone.com/2022/11/08/Hexo-Blog-1/</link>
             <category>blog</category>
             <pubDate>Tue, 08 Nov 2022 15:40:48 +0800</pubDate>
             <description><![CDATA[ &lt;center&gt;Hexo-Blog 第一期-初始化(纯新人教学向)&lt;/center&gt;
@@ -76,9 +76,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://yoursite.com/2022/11/01/Wordpress/</guid>
+            <guid isPermalink="true">http://www.shallowlone.com/2022/11/01/Wordpress/</guid>
             <title>WordPress开Blog介绍</title>
-            <link>http://yoursite.com/2022/11/01/Wordpress/</link>
+            <link>http://www.shallowlone.com/2022/11/01/Wordpress/</link>
             <category>blog</category>
             <pubDate>Tue, 01 Nov 2022 12:45:05 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;目前已选择使用 Hexo 搭建静态 Blog, 还就那个简洁 LMAO. 但是本文仍然适用于小白亲自写动态网页，后面也会陆续提供 Hexo 的新人建设 blog 方式.&lt;/p&gt;

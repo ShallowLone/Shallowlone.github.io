@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://yoursite.com</id>
+    <id>http://www.shallowlone.com</id>
     <title>落花繁星 星奔川騖</title>
-    <link href="http://yoursite.com" />
+    <link href="http://www.shallowlone.com" />
     <updated>2022-11-08T07:40:48.000Z</updated>
     <category term="blog" />
     <category term="mark" />
     <category term="cs" />
     <entry>
-        <id>http://yoursite.com/2022/11/08/Hexo-Blog-1/</id>
+        <id>http://www.shallowlone.com/2022/11/08/Hexo-Blog-1/</id>
         <title>Hexo-Blog 第一期</title>
-        <link rel="alternate" href="http://yoursite.com/2022/11/08/Hexo-Blog-1/"/>
+        <link rel="alternate" href="http://www.shallowlone.com/2022/11/08/Hexo-Blog-1/"/>
         <content type="html">&lt;center&gt;Hexo-Blog 第一期-初始化(纯新人教学向)&lt;/center&gt;
 &lt;p&gt;如今越来越多的人想搭建属于自己的 Blog 了 (虽然这年头都是直接发微博，小红书，QQ 空间的 = =, 但是个人自己抡个个人页面比较有意思，以后也可以当简历一部份的 (对于计算机专业来讲)), 这里给各位推荐使用 Hexo 来搭建个人的 Blog (中途可能要掏一笔域名钱，其他几乎免费), 前面也有一篇 Wordpress 的文章，看个人所需.(本文尽可能图文并茂)&lt;/p&gt;
 &lt;p&gt;另外，你也可以部署到服务器 (国内先完成备案，部署到香港服务器就不用), 后面可能出一期教程&lt;/p&gt;
@@ -73,9 +73,9 @@
         <updated>2022-11-08T07:40:48.000Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2022/11/05/random/</id>
+        <id>http://www.shallowlone.com/2022/11/05/random/</id>
         <title>Random Number,Simulation and Random Walk</title>
-        <link rel="alternate" href="http://yoursite.com/2022/11/05/random/"/>
+        <link rel="alternate" href="http://www.shallowlone.com/2022/11/05/random/"/>
         <content type="html">&lt;p&gt;随机数，仿真，Random Walk 的杂谈&lt;/p&gt;
 &lt;p&gt;最近在学习随机数的相关内容，刚好又在学 python, 故浅浅记录下相关知识&lt;/p&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
@@ -256,9 +256,9 @@
         <updated>2022-11-05T06:45:00.000Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2022/11/01/Wordpress/</id>
+        <id>http://www.shallowlone.com/2022/11/01/Wordpress/</id>
         <title>WordPress开Blog介绍</title>
-        <link rel="alternate" href="http://yoursite.com/2022/11/01/Wordpress/"/>
+        <link rel="alternate" href="http://www.shallowlone.com/2022/11/01/Wordpress/"/>
         <content type="html">&lt;p&gt;目前已选择使用 Hexo 搭建静态 Blog, 还就那个简洁 LMAO. 但是本文仍然适用于小白亲自写动态网页，后面也会陆续提供 Hexo 的新人建设 blog 方式.&lt;/p&gt;
 &lt;p&gt;&lt;s&gt;原话：在观看了 b 站某些 up 推荐的网站开发教程，刚好自己想通过网页 Blog 的形式完成记录相关记录，便利用星辰云的虚拟面板整了个动态网页型 Blog，以后为了方便会将网页部署回腾讯云的 server（到时候爷们直接 SQL 整体迁移）并完成备案工作&lt;/s&gt;&lt;/p&gt;
 &lt;p&gt;制作网页教程其实说实在，只要资金充足，没啥干不了的，可能就是时间成本问题 LMAO&lt;/p&gt;
@@ -279,9 +279,9 @@
         <updated>2022-11-01T04:45:05.000Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2022/10/31/markdown/</id>
+        <id>http://www.shallowlone.com/2022/10/31/markdown/</id>
         <title>Markdown Style test(English text)</title>
-        <link rel="alternate" href="http://yoursite.com/2022/10/31/markdown/"/>
+        <link rel="alternate" href="http://www.shallowlone.com/2022/10/31/markdown/"/>
         <content type="html">&lt;p&gt;This post is originated from &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXN0LmdpdGh1Yi5jb20vYXBhY2tlZXIvNDE1OTI2OA==&#34;&gt;here&lt;/span&gt; and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;hr&gt;
@@ -506,9 +506,9 @@ This line is only separated by a single newline, so it’s a separate line in th
         <updated>2022-10-31T04:10:00.000Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2022/10/31/markdown%20Chinese%20file/</id>
+        <id>http://www.shallowlone.com/2022/10/31/markdown%20Chinese%20file/</id>
         <title>markdown中文语法介绍</title>
-        <link rel="alternate" href="http://yoursite.com/2022/10/31/markdown%20Chinese%20file/"/>
+        <link rel="alternate" href="http://www.shallowlone.com/2022/10/31/markdown%20Chinese%20file/"/>
         <content type="html">&lt;h3 id=&#34;ps1以下内容从b站up主sakiyary搬运过来的附带个视频链接markdown-typoravscode-超全教程-给大一新生安利的文本神器-httpswwwbilibilicomvideobv1hg411p7fxvd_source68e6b59a31ec0e8cdf66bdbe71f5208e&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ps1以下内容从b站up主sakiyary搬运过来的附带个视频链接markdown-typoravscode-超全教程-给大一新生安利的文本神器-httpswwwbilibilicomvideobv1hg411p7fxvd_source68e6b59a31ec0e8cdf66bdbe71f5208e&#34;&gt;#&lt;/a&gt; Ps1: 以下内容从 b 站 up 主:&lt;strong&gt;Sakiyary&lt;/strong&gt; 搬运过来的，附带个视频链接:【[Markdown + Typora/VSCode 超全教程] 给大一新生安利的文本神器！】&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMWhHNDExcDdmWD92ZF9zb3VyY2U9NjhlNmI1OWEzMWVjMGU4Y2RmNjZiZGJlNzFmNTIwOGU=&#34;&gt;https://www.bilibili.com/video/BV1hG411p7fX?vd_source=68e6b59a31ec0e8cdf66bdbe71f5208e&lt;/span&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;ps2由于主题设置问题h1一级标题无法正常显示在我文章里会显示井号实际操作上你直接打出来的还是没有问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ps2由于主题设置问题h1一级标题无法正常显示在我文章里会显示井号实际操作上你直接打出来的还是没有问题&#34;&gt;#&lt;/a&gt; ps2: 由于主题设置问题，H1 (一级标题) 无法正常显示，在我文章里会显示井号 #, 实际操作上你直接打出来的还是没有问题 = =&lt;/h3&gt;
 &lt;h1 id=&#34;markdowntyporavscode-超全教程-给大一新生安利的文本神器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#markdowntyporavscode-超全教程-给大一新生安利的文本神器&#34;&gt;#&lt;/a&gt; [Markdown+Typora/VSCode 超全教程] 给大一新生安利的文本神器&lt;/h1&gt;
@@ -811,9 +811,9 @@ This line is only separated by a single newline, so it’s a separate line in th
         <updated>2022-10-30T17:30:38.000Z</updated>
     </entry>
     <entry>
-        <id>http://yoursite.com/2022/10/29/hello-world/</id>
+        <id>http://www.shallowlone.com/2022/10/29/hello-world/</id>
         <title>Hello World</title>
-        <link rel="alternate" href="http://yoursite.com/2022/10/29/hello-world/"/>
+        <link rel="alternate" href="http://www.shallowlone.com/2022/10/29/hello-world/"/>
         <content type="html">&lt;p&gt;从 Wordpress 切换到 Hexo 的第一篇文章，以此开始记录从大一开始的菜鸟学习计算机之路 LMAO.&lt;/p&gt;
 &lt;p&gt;由于以后不会特别倾向于前端开发，而且发现 Hexo 和 Hugo 都适合 markdown 编写，便选择了 Hexo, 并且使用了琉璃姐姐的 Shoka 主题 (好看捏，虽然还有些 bug).&lt;/p&gt;
 &lt;p&gt;后面首先会推出计算机都看得懂的纯小白建设个人 Blog 的帖子，并且等能力上来了会提供 Python 的全栈开发学习历程以及 Leetcode 的解题等内容，也会分享点个人的闲聊.&lt;/p&gt;
